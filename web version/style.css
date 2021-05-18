@@ -47,6 +47,10 @@ img {
   width: 90%;
 }
 
+.content-grid img {
+  width: 30%;
+}
+
 .first-intro #span-1 {
   width: 65%;
   display: inline-block;
@@ -285,7 +289,7 @@ table {
 }
 
 td:last-of-type {
-  padding-left: 2%;
+  padding-left: 1%;
 }
 
 a {
@@ -299,11 +303,12 @@ a {
 
 .learn-more-kevzara h1 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   color: #093c61;
   margin-bottom: 10px;
 }
+
 .learn-more-kevzara span {
   border: 2px solid #093c61;
   padding: 2%;
@@ -340,4 +345,9 @@ hr {
   line-height: 19px;
   color: #58595b;
   font-size: 12px;
+}
+
+sup,
+sub {
+  font-size: 11px;
 }
